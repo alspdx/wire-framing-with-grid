@@ -1,0 +1,18 @@
+.gallery {
+  background: transparent;
+  padding: $col-margin;
+  border: $col-border;
+}
+
+.card-container {
+  height: 100%;
+  width: 100%;
+
+  @extend %clearfix;
+}
+
+.card {
+  background: $card-color;
+  height: $card-height;
+  border: $col-border;
+}

@@ -4,7 +4,50 @@ $grid-columns: 12;
 $grid-sizes: (
   'sm':'screen and (min-width:1px)',
   'md':'screen and (min-width:768px)',
-  'lg':'screen and (min-width:1024px)'
-)
+  'lg':'screen and (min-width:1024px)',
+  'xl':'screen and (min-width:1440px)'
+);
 
+
+// // LAYOUT 1 LAYOUT 1 LAYOUT 1 LAYOUT 1 LAYOUT 1 LAYOUT 1 LAYOUT 1 LAYOUT 1
+// // Colors
+// $header-color: #F3ECC8;
+// $hero-color: #78C2C3;
+// $blurb-color: #3F6699;
+// $footer-color: #78C2C3;
+// $card-color: #0D1B4C;
+// $gallery-color: #F3ECC8;
+//
+// //sizes
+// $header-height: 70px;
+// $hero-height: calc(100vh - #{$header-height});
+// $card-height: 350px;
+// $footer-height: 50px;
+// $blurb-height: 250px;
+// $col-margin: 15px;
+
+
+//LAYOUT 2 LAYOUT 2 LAYOUT 2 LAYOUT 2 LAYOUT 2 LAYOUT 2 LAYOUT 2 LAYOUT 2
 // Colors
+$header-color: transparent;
+$hero-color: transparent;
+$blurb-color: rgba(255,255,255,.5);
+$footer-color: rgba(195,156,124,.5);
+$card-color: rgba(97,144,164,.5);
+$gallery-color: rgba(24,54,77,1);
+// light gray #babdc0
+// dark blue #18364d
+// almost black #0f1518
+// sunset gold #c39c7c
+// warm stone #cbc6c5
+// soft teal #6190a4
+
+//sizes
+$header-height: 70px;
+$hero-height: 50vh;
+$card-height: 350px;
+$footer-height: 50px;
+$blurb-height: calc(50vh - #{$header-height} - 10vw);
+$col-margin: 0;
+$col-border: 15px solid $gallery-color;
+$border-radius-amount: 10px;

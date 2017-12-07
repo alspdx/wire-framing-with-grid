@@ -4,6 +4,8 @@
   'abstracts/mixins';
 
 // Base
+@import
+  'base/body';
 
 
 // Components
@@ -12,8 +14,4 @@
 // Layout
 @import
   'layout/grid',
-  'layout/header',
-  'layout/hero',
-  'layout/blurb',
-  'layout/gallery',
-  'layout/footer';
+  'layout/layout2/_layout_main.scss';

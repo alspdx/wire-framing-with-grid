@@ -1,0 +1,17 @@
+.gallery {
+  background: $gallery-color;
+  padding: $col-margin;
+}
+
+.card-container {
+  height: 100%;
+  width: 100%;
+
+  @extend %clearfix;
+}
+
+.card {
+  background: $card-color;
+  height: $card-height;
+  margin: $col-margin;
+}
